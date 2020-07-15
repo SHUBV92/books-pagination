@@ -1,14 +1,21 @@
 // Packages
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 // Component
-import Book from "./components/Book/Book.jsx";
+import Books from "./containers/Books/Books.jsx";
 
 const App = () => {
   return (
-    <div>
-      <h1>Paginated Books</h1>
-      <Book />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Books} />
+        <Books />
+      </Switch>
+    </Router>
   );
 };
 

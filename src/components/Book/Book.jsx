@@ -7,6 +7,7 @@ const Book = ({
   book_title,
   book_author,
   book_publication_city,
+  book_pages,
   id,
 }) => {
   return (
@@ -14,12 +15,11 @@ const Book = ({
       <div className="card">
         <h1>Book title: {book_title}</h1>
         <hr />
-
         <p>
           <span>Book author:</span> {book_author}
         </p>
         <p>
-          <span>Book pages:</span>
+      <span>Book pages: {book_pages}</span>
         </p>
         <p>
           <span>Publication City:</span>{" "}
