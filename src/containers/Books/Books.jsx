@@ -40,7 +40,7 @@ const Books = () => {
 
   useEffect(() => {
     fetch(
-      "http://nyx.vima.ekt.gr:3000/api/books",
+      "https://nyx.vima.ekt.gr:3000/api/books",
       {
         method: "POST",
       }
