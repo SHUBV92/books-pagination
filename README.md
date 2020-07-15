@@ -5,7 +5,7 @@ This project is a small web app that pulls in data for Greek Books. It shows the
 
 ## Getting Started
 
--   Clone from the Repo [Github Repo](git@github.com:SHUBV92/paginated-books.git) 
+-   Clone from the Repo [Github Repo](git@github.com:SHUBV92/paginated-book.git) 
 
 -   cd into the paginated-book folder 
 
