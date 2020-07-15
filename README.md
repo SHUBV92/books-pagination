@@ -19,7 +19,9 @@ You can find the website on [on-track-retail](https://on-track-retail.herokuapp.
 
 ### Web App Example
 
-![Web App Examples](https://github.com/SHUBV92/paginated-book/blob/master/src/assets/Screenshot.png)
+![Web App Examples](https://github.com/SHUBV92/paginated-book/blob/books/src/assets/Screenshot.png)
+
+[master](https://github.com/SHUBV92/paginated-book/blob/master/src/assets/Screenshot.png)
 
 ## Running the tests
 
