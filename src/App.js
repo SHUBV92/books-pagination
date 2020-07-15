@@ -12,8 +12,9 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Books} />
-        <Books />
+        <Route exact path="/">
+          <Books />
+        </Route>
       </Switch>
     </Router>
   );
