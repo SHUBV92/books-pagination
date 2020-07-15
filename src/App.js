@@ -1,7 +1,12 @@
+// Packages
 import React from "react";
 
-function App() {
-  return <div className="App"></div>;
-}
+const App = () => {
+  return (
+    <div>
+      <h1>Paginated Books</h1>
+    </div>
+  );
+};
 
 export default App;
