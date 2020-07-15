@@ -1,5 +1,5 @@
 
-# Books Pagination 
+# Books Pagination
 
 This project is a web app created using  ``` react boilerplate, react-router and styled-components```, that pulls in a range of data for Greek Books. It shows the book title, book publication city, author. You can use the previous or next page buttons to cycle through the list of books shown on every page.  
 
@@ -7,9 +7,9 @@ This project is a web app created using  ``` react boilerplate, react-router and
 
 To start working with this web app follow the steps below:
 
--   Clone from the Repo [Github Repo](https://github.com/SHUBV92/paginated-book) 
+-   Clone from the Repo [Books Pagination](https://github.com/SHUBV92/paginated-book) 
 
--   cd into the paginated-book folder 
+-   cd into the books-pagination folder 
 
 -   Run: npm install
 

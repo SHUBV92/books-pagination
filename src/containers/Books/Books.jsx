@@ -40,7 +40,7 @@ const Books = () => {
 
   useEffect(() => {
     fetch(
-      "https://nyx.vima.ekt.gr:3000/api/books",
+      "http://nyx.vima.ekt.gr:3000/api/books",
       {
         method: "POST",
       }
@@ -69,7 +69,7 @@ const Books = () => {
   return (
     <Container>
       <Header>
-        <h1>Paginated Books</h1>
+        <h1>Books Pagination</h1>
       </Header>
       <Buttons>
         <Button
