@@ -23,7 +23,7 @@ You can find the website on [on-track-retail](https://on-track-retail.herokuapp.
 
 ## Running the tests
 
-Run npm test --coverage 
+Run: npm test --coverage 
 
 ## Improvements
 -   Making the api call a reusable function
