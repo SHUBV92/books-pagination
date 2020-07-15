@@ -21,9 +21,9 @@ You can find the website deployed on heroku:[on-track-retail](https://on-track-r
 
 ### Web App Example
 
-![Web App Example](https://github.com/SHUBV92/paginated-book/blob/books/src/assets/Screenshot.png)
+![Web App Example](https://github.com/SHUBV92/books-pagination/blob/books/src/assets/Screenshot.png)
 
-[Web App Example](https://github.com/SHUBV92/paginated-book/blob/master/src/assets/Screenshot.png)
+[Web App Example](https://github.com/SHUBV92/books-pagination/blob/master/src/assets/Screenshot.png)
 
 ## Running the tests
 
