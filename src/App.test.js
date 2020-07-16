@@ -1,9 +1,15 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import {
+  render,
+  cleanup,
+} from "@testing-library/react";
+import App from "./App.js";
 
-test('renders learn react link', () => {
+afterEach(cleanup);
+
+test("renders Paginated Books", () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(
+    getByText("Paginated Books")
+  ).toBeTruthy();
 });

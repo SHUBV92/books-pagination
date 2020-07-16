@@ -1,69 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Books Pagination
 
-In the project directory, you can run:
+This project is a web app created using  ``` react boilerplate, react-router and styled-components```, that pulls in a range of data for Greek Books. It shows the book title, book publication city, author. You can use the previous or next page buttons to cycle through the list of books shown on every page.  
 
-### `yarn start`
+## Getting Started
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To start working with this web app follow the steps below:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+-   Clone from the Repo [Books Pagination](https://github.com/SHUBV92/paginated-book) 
 
-### `yarn test`
+-   cd into the books-pagination folder 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   Run: npm install
 
-### `yarn build`
+-   To start the web app run: npm start
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+or 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+You can find the website deployed on heroku:[on-track-retail](https://on-track-retail.herokuapp.com/?page=1)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Web App Example
 
-### `yarn eject`
+![Web App Example](https://github.com/SHUBV92/books-pagination/blob/books/src/assets/Screenshot.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[Web App Example](https://github.com/SHUBV92/books-pagination/blob/master/src/assets/Screenshot.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running the tests
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Run: npm test --coverage 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Improvements
+-   Making the api call a reusable function
+-   Add a search bar feature to search specific data points
 
-## Learn More
+## Issues encountered during development
+-   The API provided returns 20 objects, so the app only shows the first 5 pages, therefore showing no data on the subsequent pages. 
+As an improvement I would get more familiar with the API and its endpoints using official API documentation.
+Tools used to debug: Chrome Web Developer Tools(Inspect) and Postman.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-   The web app shows no book information after deploying to Heroku, assuming the API url is not accessible and not being called on.
+As an improvement I would debug the deployed web app using Heroku's in-built console and get more familiar with the API using official documentation.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-   Initially commits were made directly to the master branch, that were then extracted out into a Books branch. As an improvement, I would create a new branch to implement a feature and then merge this feature branch into the master branch after a pull request and review.  
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# paginated-book
